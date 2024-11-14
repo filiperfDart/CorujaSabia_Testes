@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "testes"
+version = "0.1.0"
+description = ""
+authors = ["filipe.ferreira <filipe.ferreira@dartdigital.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+locust = "^2.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
